@@ -1,105 +1,108 @@
 # Cognifyz-Level2
 Level 2 Data Analyst Internship Tasks 
-📊 Data Analysis Internship – Level 2
+# 📊 Data Analysis Internship – Level 2
 
-Organization: Cognifyz Technologies
+## 🏢 Organization
+**Cognifyz Technologies**
 
-📌 Project Overview
+---
 
-This repository contains the implementation of Level 2 tasks completed during my Data Analyst Internship.
-The project focuses on analyzing a restaurant dataset using Python to extract insights related to ratings, cuisines, geography, restaurant chains, and customer reviews.
+## 📌 Project Overview
+This repository contains the implementation of **Level 2 tasks** completed during my **Data Analyst Internship**.  
 
-🛠 Tools & Technologies Used
+The project focuses on analyzing a restaurant dataset using Python to extract insights related to:
 
-Python
+- Restaurant Ratings  
+- Cuisine Combinations  
+- Geographic Distribution  
+- Restaurant Chains  
 
-Pandas
+---
 
-Matplotlib
+## 🛠 Tools & Technologies Used
+- Python  
+- Pandas  
+- Matplotlib  
+- Folium (Map Visualization)  
+- Jupyter Notebook  
 
-Folium (for Map Visualization)
+---
 
-Jupyter Notebook
-
-📂 Dataset
-
+## 📂 Dataset
 Restaurant dataset containing information such as:
 
-Restaurant Name
+- Restaurant Name  
+- City  
+- Cuisines  
+- Ratings  
+- Votes  
+- Price Range  
+- Latitude & Longitude  
+- Reviews  
 
-City
+---
 
-Cuisines
+## ✅ Level 2 Tasks Implemented
 
-Ratings
+---
 
-Votes
+### ⭐ Task 1 — Restaurant Ratings Analysis
+**Objectives**
+- Analyze distribution of aggregate ratings  
+- Identify most common rating range  
+- Calculate average votes received by restaurants  
 
-Price Range
+**Implementation**
+- Used statistical analysis and visualization to understand rating distribution  
+- Calculated average votes using dataset aggregation functions  
 
-Latitude & Longitude
+---
 
-Reviews
+### ⭐ Task 2 — Cuisine Combination Analysis
+**Objectives**
+- Identify most common cuisine combinations  
+- Analyze which cuisine combinations have higher average ratings  
 
-✅ Level 2 Tasks Implemented
-⭐ Task 1 — Restaurant Ratings Analysis
+**Implementation**
+- Split and processed cuisine data  
+- Grouped combinations and calculated average ratings  
 
-Analyzed distribution of aggregate ratings
+---
 
-Identified most common rating range
+### ⭐ Task 3 — Geographic Analysis
+**Objectives**
+- Plot restaurant locations using latitude & longitude  
+- Identify clustering patterns across cities  
+- Visualize restaurant distribution on map  
 
-Calculated average votes received by restaurants
+**Implementation**
+- Used Folium to create interactive maps  
+- Analyzed geographic clustering patterns  
 
-⭐ Task 2 — Cuisine Combination Analysis
+---
 
-Identified most common cuisine combinations
+### ⭐ Task 4 — Restaurant Chains Analysis
+**Objectives**
+- Identify restaurant chains present in dataset  
+- Analyze chain popularity using number of outlets  
+- Compare ratings and votes across chains  
 
-Analyzed which cuisine combinations have higher average ratings
+**Implementation**
+- Grouped restaurants by name  
+- Identified multi-outlet restaurants as chains  
+- Compared chain performance metrics  
 
-⭐ Task 3 — Geographic Analysis
+---
 
-Plotted restaurant locations using latitude & longitude
-
-Identified clustering patterns of restaurants across cities
-
-Visualized restaurant distribution using map
-
-⭐ Task 4 — Restaurant Chains Analysis
-
-Identified restaurant chains present in dataset
-
-Analyzed chain popularity using number of outlets
-
-Compared ratings and votes across different chains
-
-⭐ Task 5 — Restaurant Reviews Analysis
-
-Identified common positive and negative keywords in reviews
-
-Calculated average review length
-
-Analyzed relationship between review length and ratings
-
-📈 Key Learnings
-
-Data Cleaning & Preprocessing
-
-Exploratory Data Analysis (EDA)
-
-Data Visualization Techniques
-
-Basic Text Analysis
-
-Working with Real-World Datasets
-
-🚀 Project Outcome
-
+## 🚀 Project Outcome
 This project helped in understanding real-world data analysis workflow including:
 
-Data preparation
+- Data Preparation  
+- Pattern Identification  
+- Insight Generation  
+- Visualization for Decision Making  
 
-Pattern identification
+---
 
-Insight generation
 
-Visualization for decision making
+⭐ If you found this project useful, consider giving it a star!
